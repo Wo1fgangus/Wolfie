@@ -1,0 +1,80 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    height: 800px;
+    background-image: url("folioimg/pexels-japy-1069798.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #00ff99;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+ 
+a {
+    font-weight: 1000;
+    color: #333333;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    color:  rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    top: 50px;
+    left: 5px;
+    font-family: sans-serif;
+}
+
+.link-list {
+    border: 3px solid transparent;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+    padding: 40px 0px;
+    width: 65%;
+}
+
+.link-list li {
+  background-color: #00ff99;
+  padding: 10px;
+  margin: 0px;
+  margin-right: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  text-align: center; 
+  opacity: 0.5;
+  border: 3px solid #555555;
+}
+
+.link-list li:hover {
+    background: #00ff99;
+    border: 3px solid white;
+    color: white;
+    opacity: 1;
+}
